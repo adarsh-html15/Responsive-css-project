@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Adarsh Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <h1>Adarsh Cafe</h1>
+                    <span class="tagline">Authentic Italian Cuisine</span>
+
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Welcome to Adarsh Cafe</h2>
+                <p>Eperience the authentic taste of Italy in heart of the city.</p>
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn btn-primary">View Menu</a>
+                    <a href="#contact" class="btn btn-secondary">Make Reservation</a>
+                </div>
+            </div>
+        </section>
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section-title">Menu</h2>
+                <p class="section-subtitle">Discover our carefull crafted dishes.</p>
+            </div>
+            <div class="menu-categorys">
+                <div class="menu-category">
+                    <h3>Apetizers</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h4>Bruschetta Italiana</h4>
+                                <p>Fresh tomatoes, basil, and mozzarella on tosted bread.</p>
+                                <span class="price">$12</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h4>Lasagna Classica</h4>
+                                <p>Layers of fresh pasta sheet with rich meat sauce, creamy bechamel, and melted
+                                    parmesan.</p>
+                                <span class="price">$18</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h4>Penne Alla Vodka</h4>
+                                <p>Penne pasta tossed in a creamy tomato and vodka sauce, finished with fresh parmesan
+                                    cheese.</p>
+                                <span class="price">$15</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h4>Tiramisu Classico</h4>
+                                <p>Traditional Italian dessert made with coffee-dipped ladyfingers and creamy mascarpone
+                                    layers.</p>
+                                <span class="price">$9</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Adarsh Cafe</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Our story</h3>
+                        <p>
+                            Welcome to <strong>Adarsh Cafe</strong>, where every meal is a celebration of authentic
+                            Italian flavors.
+                            Founded with a passion for traditional cooking, we bring you the true essence of Italy’s
+                            rich culinary heritage.
+                            From our hand-rolled pasta to our slow-simmered sauces, every dish is crafted with love and
+                            the finest ingredients.
+                        </p>
+                        <p>
+                            Our kitchen believes in simplicity and quality. We source fresh herbs, premium olive oil,
+                            and authentic cheeses
+                            to ensure that every bite feels like a journey through the streets of Rome or Florence.
+                            Whether you are here for
+                            a quick bite of Bruschetta or a cozy dinner with our signature Lasagna, we promise an
+                            unforgettable dining experience.
+                        </p>
+                    </div>
+                
+                <div class="about-image">
+                    <img src="image_f0b28424.jpg" alt="Restorent interior">
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title"> Contact US</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get in touch</h3>
+                        <div class="contact-item">
+                            <strong>Address:</strong>
+                            <p>742 Evergreen Terrace</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Phone:</strong>
+                            <p>(555)123-4567</p>
+                        </div><div class="contact-item">
+                            <strong>Email:</strong>
+                            <p>info@adarsh@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <h3>Make a Reservation</h3>
+                        <form action="">
+                           <div class="form-group">
+                               <label for="name">Full Name:</label>
+                               <input type="text" id="name" name="name" required>
+                           </div>
+                           <div class="form-group">
+                               <label for="email">Email:</label>
+                               <input type="email" id="email" name="email" required>
+                           </div>
+                           <div class="form-group">
+                               <label for="phone">Phone:</label>
+                               <input type="tel" id="phone" name="phone" required>
+                           </div>
+                           <div class="form-group">
+                               <label for="date">Reservation Date:</label>
+                               <input type="date" id="date" name="date" required>
+                           </div>
+                           <div class="form-group">
+                               <label for="time">Time:</label>
+                               <select name="time" id="time">
+                                <option value="">Select Time</option>
+                                <option value="18:00">06:00 PM</option>
+                                <option value="19:00">07:00 PM</option>
+                                <option value="20:00">08:00 PM</option>
+                                <option value="21:00">09:00 PM</option>
+                               </select>
+                           </div>
+                           <div class="form-group">
+                               <label for="guest">Number of Guests:</label>
+                               <select name="guest" id="guest">
+                                <option value="">Select no of Guest</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                               </select>     
+                            </div>
+                            <div class="form-group">
+                               <label for="request">Special Request:</label>
+                                <textarea name="message" rows="4" placeholder="Any special dietary requirements or requests..."></textarea>    
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit Resevation</button>
+                           
+
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Adarsh Cafe</h3>
+                    <p>Authentic Italian cuisine, made with love and the finest ingredients.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Opening Hours</h4>
+                    <p>Mon - Fri: 11:00 AM - 10:00 PM</p>
+                    <p>Sat - Sun: 12:00 PM - 11:00 PM</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Adarsh Cafe. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
