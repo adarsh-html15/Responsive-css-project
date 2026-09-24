@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&display=swap" rel="stylesheet">
+
     <title>Adarsh Restaurant</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -15,7 +19,7 @@
             <nav class="navbar">
                 <div class="logo">
                     <h1>Adarsh Cafe</h1>
-                    <span class="tagline">Authentic Italian Cuisine</span>
+                    <span class="tagline">Authentic Indian Cuisine</span>
 
                 </div>
                 <ul class="nav-links">
@@ -32,8 +36,8 @@
             <div class="hero-background hero-background-current" aria-hidden="true"></div>
             <div class="hero-background hero-background-next" aria-hidden="true"></div>
             <div class="hero-content">
-                <h2>Welcome to Adarsh Cafe</h2>
-                <p>Experience the authentic taste of Italy in the heart of the city.</p>
+                <h2>Welcome to <span class="hero-logo-font">Adarsh cafe</span></h2>
+                <p>Experience the authentic taste of India in the heart of the city.</p>
                 <div class="hero-buttons">
                     <a href="#menu" class="btn btn-primary">View Menu</a>
                     <a href="#contact" class="btn btn-secondary">Make Reservation</a>
@@ -42,46 +46,118 @@
         </section>
         <section id="menu" class="menu">
             <div class="container">
-                <h2 class="section-title">Menu</h2>
-                <p class="section-subtitle">Discover our carefully crafted dishes.</p>
+                <div class="menu-upper">
+
+                    <h2 class="section-title">Menu</h2>
+                    <p class="section-subtitle">Discover our carefully crafted dishes.</p>
+                </div>
             </div>
             <div class="menu-categories">
                 <div class="menu-category">
-                    <h3>Italian Favorites</h3>
+                    <h3>INDIANS Favorites</h3>
                     <div class="menu-items">
                         <div class="menu-item">
                             <div class="menu-item-info">
-                                <h4>Bruschetta Italiana</h4>
-                                <p>Fresh tomatoes, basil, and mozzarella on toasted bread.</p>
-                                <span class="price">$12</span>
+                                <h4>Singara Samosa</h4>
+                                <p>Crispy fried pastry filled with spiced potatoes, green peas, and served with tangy
+                                    chutney.</p>
+                                <span class="price">₹30</span>
                             </div>
-                        </div>
-                        <div class="menu-item">
-                            <div class="menu-item-info">
-                                <h4>Lasagna Classica</h4>
-                                <p>Layers of fresh pasta sheet with rich meat sauce, creamy bechamel, and melted
-                                    parmesan.</p>
-                                <span class="price">$18</span>
-                            </div>
+                            
+                            <button class="order-item">Order</button>
                         </div>
 
                         <div class="menu-item">
                             <div class="menu-item-info">
-                                <h4>Penne Alla Vodka</h4>
-                                <p>Penne pasta tossed in a creamy tomato and vodka sauce, finished with fresh parmesan
-                                    cheese.</p>
-                                <span class="price">$15</span>
+                                <h4>Shahi Paneer Pizza</h4>
+                                <p>Freshly baked crust topped with rich tomato sauce, marinated paneer cubes, and gooey
+                                    mozzarella cheese.</p>
+                                <span class="price">₹299</span>
                             </div>
+
+                            <button class="order-item">Order</button>
                         </div>
 
                         <div class="menu-item">
                             <div class="menu-item-info">
-                                <h4>Tiramisu Classico</h4>
-                                <p>Traditional Italian dessert made with coffee-dipped ladyfingers and creamy mascarpone
-                                    layers.</p>
-                                <span class="price">$9</span>
+                                <h4>Crispy Aloo Tikki Burger</h4>
+                                <p>A golden potato patty with fresh lettuce, onions, creamy mayo, and a hint of mint
+                                    chutney in warm buns.</p>
+                                <span class="price">₹89</span>
                             </div>
+                            <button class="order-item">Order</button>
                         </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h4>Desi Ghee Jalebi</h4>
+                                <p>Traditional Indian sweet made of deep-fried fermented batter, soaked in warm,
+                                    fragrant sugar syrup.</p>
+                                <span class="price">₹60</span>
+                            </div>
+                            <button class="order-item">Order</button>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h4>Delhi Wale Chole Bhature</h4>
+                                <p>Fluffy, deep-fried puffed bread served with spicy, tangy chickpea curry and pickled
+                                    salad.</p>
+                                <span class="price">₹120</span>
+                            </div>
+                            <button class="order-item">Order</button>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h4>Murgh Makhani (Butter Chicken)</h4>
+                                <p>Tender tandoori chicken pieces simmered in a rich, creamy, and buttery tomato gravy.
+                                </p>
+                                <span class="price">₹350</span>
+                            </div>
+                            <button class="order-item">Order</button>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h4>Crispy Masala Dosa</h4>
+                                <p>Thin rice crepes filled with a flavorful spiced potato mash, served with sambar and
+                                    coconut chutney.</p>
+                                <span class="price">₹110</span>
+                            </div>
+                            <button class="order-item">Order</button>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h4>Veg Hakka Noodles</h4>
+                                <p>Wok-tossed noodles with colorful crunchy vegetables, soy sauce, and mild Indian
+                                    spices.</p>
+                                <span class="price">₹140</span>
+                            </div>
+                            <button class="order-item">Order</button>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h4>Tandoori Veg Momos</h4>
+                                <p>Dumplings filled with fresh veggies, marinated in tandoori spices, and grilled to
+                                    perfection.</p>
+                                <span class="price">₹120</span>
+                            </div>
+                            <button class="order-item">Order</button>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h4>Hot Gulab Jamun</h4>
+                                <p>Soft, melt-in-the-mouth milk solid dumplings fried and soaked in rose-flavored sugar
+                                    syrup.</p>
+                                <span class="price">₹50</span>
+                            </div>
+                            <button class="order-item">Order</button>
+                        </div>
+
 
                     </div>
                 </div>
@@ -95,8 +171,8 @@
                         <h3>Our story</h3>
                         <p>
                             Welcome to <strong>Adarsh Cafe</strong>, where every meal is a celebration of authentic
-                            Italian flavors.
-                            Founded with a passion for traditional cooking, we bring you the true essence of Italy’s
+                            Indian flavors.
+                            Founded with a passion for traditional cooking, we bring you the true essence of India’s
                             rich culinary heritage.
                             From our hand-rolled pasta to our slow-simmered sauces, every dish is crafted with love and
                             the finest ingredients.
@@ -110,11 +186,11 @@
                             unforgettable dining experience.
                         </p>
                     </div>
-                
-                <div class="about-image">
-                    <img src="image_f0b28424.jpg" alt="Interior of Adarsh Cafe">
+
+                    <div class="about-image">
+                        <img src="image_f0b28424.jpg" alt="Interior of Adarsh Cafe">
+                    </div>
                 </div>
-            </div>
             </div>
         </section>
         <section id="contact" class="contact">
@@ -125,62 +201,64 @@
                         <h3>Get in touch</h3>
                         <div class="contact-item">
                             <strong>Address:</strong>
-                            <p>742 Evergreen Terrace</p>
+                            <p> Planate Marsh</p>
                         </div>
                         <div class="contact-item">
                             <strong>Phone:</strong>
-                            <p>(555)123-4567</p>
-                        </div><div class="contact-item">
+                            <p>+91-8808052111</p>
+                        </div>
+                        <div class="contact-item">
                             <strong>Email:</strong>
-                            <p>info@adarsh@gmail.com</p>
+                            <p>mauryadarsh15@gmail.com</p>
                         </div>
                     </div>
                     <div class="contact-form">
                         <h3>Make a Reservation</h3>
                         <form>
-                           <div class="form-group">
-                               <label for="name">Full Name:</label>
-                               <input type="text" id="name" name="name" required>
-                           </div>
-                           <div class="form-group">
-                               <label for="email">Email:</label>
-                               <input type="email" id="email" name="email" required>
-                           </div>
-                           <div class="form-group">
-                               <label for="phone">Phone:</label>
-                               <input type="tel" id="phone" name="phone" required>
-                           </div>
-                           <div class="form-group">
-                               <label for="date">Reservation Date:</label>
-                               <input type="date" id="date" name="date" required>
-                           </div>
-                           <div class="form-group">
-                               <label for="time">Time:</label>
-                               <select name="time" id="time" required>
-                                <option value="">Select Time</option>
-                                <option value="18:00">06:00 PM</option>
-                                <option value="19:00">07:00 PM</option>
-                                <option value="20:00">08:00 PM</option>
-                                <option value="21:00">09:00 PM</option>
-                               </select>
-                           </div>
-                           <div class="form-group">
-                               <label for="guest">Number of Guests:</label>
-                               <select name="guest" id="guest" required>
-                                <option value="">Select no of Guest</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                               </select>     
+                            <div class="form-group">
+                                <label for="name">Full Name:</label>
+                                <input type="text" id="name" name="name" required>
                             </div>
                             <div class="form-group">
-                               <label for="request">Special Request:</label>
-                                <textarea id="request" name="message" rows="4" placeholder="Any special dietary requirements or requests..."></textarea>    
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone:</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="date">Reservation Date:</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="time">Time:</label>
+                                <select name="time" id="time" required>
+                                    <option value="">Select Time</option>
+                                    <option value="18:00">06:00 PM</option>
+                                    <option value="19:00">07:00 PM</option>
+                                    <option value="20:00">08:00 PM</option>
+                                    <option value="21:00">09:00 PM</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="guest">Number of Guests:</label>
+                                <select name="guest" id="guest" required>
+                                    <option value="">Select no of Guest</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="request">Special Request:</label>
+                                <textarea id="request" name="message" rows="4"
+                                    placeholder="Any special dietary requirements or requests..."></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary">Submit Reservation</button>
-                           
+
 
 
                         </form>
@@ -194,7 +272,7 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>Adarsh Cafe</h3>
-                    <p>Authentic Italian cuisine, made with love and the finest ingredients.</p>
+                    <p>Authentic Indian cuisine, made with love and the finest ingredients.</p>
                 </div>
                 <div class="footer-section">
                     <h4>Quick Links</h4>
